@@ -36,21 +36,6 @@ public class Splash extends JFrame implements ActionListener {
         setLocation(200, 50);
         setVisible(true);
         
-        while(true) {
-            heading.setVisible(false);
-            try {
-                Thread.sleep(500);
-            } catch (Exception e){
-                
-            }
-            
-            heading.setVisible(true);
-            try {
-                Thread.sleep(500);
-            } catch (Exception e){
-                
-            }
-        }
     }
     
     public void actionPerformed(ActionEvent ae) {
